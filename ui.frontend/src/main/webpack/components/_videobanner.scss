@@ -1,0 +1,114 @@
+:root {
+  --video-banner-hide: none;
+  --video-banner-color: #ada39d;
+  --video-banner-positions: relative;
+  --video-banner-position: absolute;
+  --video-banner-video-gradient: linear-gradient(
+      to bottom,
+      rgba(53, 98, 169, 0.3),
+      rgba(53, 98, 169, 0.3)
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  --video-banner-control-padding: 15px 20px 15px 66px;
+  --video-banner-transform-logo: translate(-50%, -50%);
+  --video-banner-border-radius: 28px;
+  --video-banner-control-background-color: rgba($color: #000, $alpha: 48%);
+  --video-banner-control-font-size: 1rem;
+  --video-banner-control-font-weight: bold;
+  --video-banner-line-height: 1.38;
+  --video-banner-control-inset: 0;
+  --video-banner-video-z-index: 1;
+  --video-banner-logo-z-index: 2;
+  --video-banner-logo-width: 100%;
+}
+
+.cmp-video-banner {
+  
+  &-container {
+      width: 100%;
+
+    //   overflow: hidden;
+    //   display: block;
+    max-height: 700px;
+    position: var(--video-banner-position);
+  }
+  &-button-play {
+    left: 50%;
+    position: var(--video-banner-position);
+    top: 50%;
+    width: 10%;
+    transform: var(--video-banner-transform-logo);
+    z-index: var(--video-banner-logo-z-index);
+    @media only screen and (max-width: 768px) {
+      width: var(--video-banner-logo-width);
+    }
+  }
+
+  &-video {
+    height: 100%;
+    position: var(--video-banner-position);
+    object-fit: cover;
+    inset: 0;
+    width: 100%;
+  }
+
+  .plyr__video-wrapper {
+    height: 660px;
+    @media only screen and (max-width: 768px) {
+      height: 100vh;
+    }
+  }
+
+  .plyr__poster {
+    background-size: cover;
+  }
+  .plyr--video {
+    &::after {
+      content: "";
+      background: var(--video-banner-video-gradient);
+      inset: var(--video-banner-control-inset);
+      position: var(--video-banner-position);
+      z-index: var(--video-banner-video-z-index);
+      height: 100%;
+    }
+  }
+  .plyr__controls {
+    .plyr__progress__container,
+    .plyr__time,
+    .plyr__volume,
+    .plyr__menu,
+    button[data-plyr="captions"],
+    button[data-plyr="pip"],
+    button[data-plyr="fullscreen"] {
+      display: var(--video-banner-hide);
+    }
+    button[data-plyr="play"] {
+      background-color: var(--video-banner-control-background-color);
+      border-radius: var(--video-banner-border-radius);
+      color: var(--video-banner-color);
+      padding: 15px 20px 15px 56px;
+      font-size: var(--video-banner-control-font-size);
+      font-weight: var(--video-banner-control-font-weight);
+      line-height: var(--video-banner-line-height);
+      position: var(--video-banner-positions);
+
+      &::before {
+        content: "Play";
+        position: var(--video-banner-position);
+        left: 15px;
+        top: 12px;
+      }
+
+      &.plyr__control--pressed {
+        padding: var(--video-banner-control-padding);
+
+        &::before {
+          content: "Pause";
+        }
+      }
+    }
+  }
+  .plyr--full-ui.plyr--video .plyr__control--overlaid {
+    display: var(--video-banner-hide);
+  }
+}

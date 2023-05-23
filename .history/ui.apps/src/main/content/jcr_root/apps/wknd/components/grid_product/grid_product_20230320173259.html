@@ -1,0 +1,87 @@
+<div class="cmp-filter-dropdown-product-filter">
+    <h1>FILTER PRODUCT</h1>
+    <div class="sort">
+      <div class="cmp-filter-dropdown-collection-sort">
+        <label>Filter by:</label>
+        <select id="FilterCategory" onchange="getSelectedValueCategory()">
+          <option selected="selected">Category</option>
+          <option value="FOOTWEAR">FOOTWEAR</option>
+          <option value="Apparel">Apparel</option>
+          <option value="Accessories">Accessories</option>
+        </select>
+        <select id="FilterProductType" onchange="getSelectedValueProductType()">
+          <option selected="selected">Product Type</option>
+          <option value="Bag">Bag</option>
+          <option value="Cap">Cap</option>
+          <option value="Sandals">Sandals</option>
+          <option value="SportsShoe">Sports Shoe</option>
+         
+        </select>
+        <select id="FilterPrice" onchange="getSelectedValuePrice()">
+          <option selected="selected">Price</option>
+          <option value="Less Then 1000">Less then 1000</option>
+          <option value="1000-3000">1000-3000</option>
+          <option value="3000-5000">3000-5000</option>
+          <option value="5000-10000">5000-10000</option>
+        </select>
+        <select id="FilterGender" onchange="getSelectedValueGender()">
+          <option selected="selected">Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <select id="list" onchange="getSelectedValue()">
+          <option selected="selected">Size</option>
+          <option value="camera">Camera</option>
+          <option value="dvr">DVR</option>
+        </select>
+        <select id="FilterColor" onchange="getSelectedValueColor()">
+          <option selected="selected">ColorValue</option>
+          <option value="Red">Red</option>
+          <option value="Green">Green</option>
+          <option value="Black">Black</option>
+
+          <option value="Blue">Blue</option> -->
+
+        <!-- <!-- </select> -->
+      </div>
+    </div>
+</div>
+<div class="cmp-product-grid-container"
+data-sly-use.model="com.adobe.aem.guides.wknd.core.models.GridProductCard"
+data-sly-list.item="${model.product}"  data-type=${item.category}>
+    <div class="cmp-product-grid-item ${item.id}  data-type=${item.category} " >
+      
+
+      <div class="card " >
+
+       
+        <div class="cmp-product-grid-item-image" >
+          <img class="cmp-product-grid-item-image-img ${item.id}" src="${item.image}" alt="" />
+        </div>
+        <div class="cmp-product-grid-item-discount ${item.id}">${item.title}</div>
+     
+    
+        <div class="cmp-product-grid-item-price  ${item.id}">${item.price}</div>
+        <div class="cmp-product-grid-item-card-botton  ${item.id}">${item.button}</div>
+        <!-- <div class="cmp-occupations">${properties.occupations}</div> -->
+      
+    </div>
+    </div>
+    </div>
+
+<!-- <div
+class="cmp-product-grid-container"
+data-sly-use.templates="/libs/core/wcm/components/commons/v1/templates.html"
+data-sly-use.model="com.adobe.aem.guides.wknd.core.models.GridProductCard" 
+data-cmp-is="product">
+    <div class="cmp-product-grid-item"  data-sly-list.item="${model.product}" >
+   <div class="card">
+    <ul >
+        <li class="cmp-product-grid-item-image ">
+            <img class="cmp-product-grid-item-image-img }" src="${item.image}" alt="" />
+          </li>
+    <li class="cmp-product-grid-item-discount ">${item.discount}</li>
+    <li class="cmp-product-grid-item-price ">${item.text}</li>
+      <li class="cmp-product-grid-item-card-botton ">${item.title}</li>
+</ul> -->
+

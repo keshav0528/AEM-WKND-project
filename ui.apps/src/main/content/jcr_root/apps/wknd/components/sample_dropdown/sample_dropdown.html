@@ -1,0 +1,26 @@
+
+
+ <div class="cmp-helloworld" data-cmp-is="helloworld">
+    <h2 class="cmp-helloworld__title">Hello World Component</h2>
+    <div class="cmp-helloworld__item" data-sly-test="${properties.text}">
+        <p class="cmp-helloworld__item-label">Text property:</p>
+        <img src="properties.image" alt="">
+        <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="property">${properties.text}</pre>
+    </div> 
+<div class="cmp-helloworld__item" data-sly-use.model="com.adobe.aem.guides.wknd.core.models.HelloWorldModel" data-sly-test="${model.message}">
+        <p class="cmp-helloworld__item-label">Model message:</p>
+        <pre class="cmp-helloworld__item-output"data-cmp-hook-helloworld="model">${model.message}</pre>
+    </div> 
+<!-- </div> -->
+<!-- <div class="cmp-helloworld">${properties.text}
+    <img src="${properties.image}" alt="">
+</div>
+<div>
+    <img src="${properties.image}" alt="">
+</div>
+<div class=”Header”>
+    <h3 class=”Heading”>Shopping Cart</h3>
+    <h5 class=”Action”>Remove all</h5>
+    </div> -->
+
+ </div>

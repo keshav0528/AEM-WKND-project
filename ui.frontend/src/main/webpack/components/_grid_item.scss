@@ -1,0 +1,35 @@
+
+
+
+.cmp-product-grid-list-container {
+  margin-top: 300px !important;
+    display: grid;
+    // overflow: hidden;
+    // top: auto;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #f2f6f7;
+    padding: 10px;
+  }
+  .cmp-product-grid-list-item {
+    background-color: rgba(252, 246, 246, 0.8);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+  
+    text-align: center;
+  }
+  .card-big-size {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-family: arial;
+    overflow: hidden;
+  }
+  
+
+  .cmp-product-grid-list-prop-img{
+    width: 100%;
+  }

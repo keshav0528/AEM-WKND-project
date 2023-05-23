@@ -1,0 +1,66 @@
+<div
+  data-sly-use.model="com.adobe.aem.guides.wknd.core.models.Header"
+  data-sly-use.templates="/libs/core/wcm/components/commons/v1/templates.html"
+  data-cmp-is="Header"
+  class="cmp-mainnavbar"
+>
+  <sly data-sly-test="${!model.isEmpty}">
+    <!-- <div class="cmp-mainheader__first"> -->
+      <div class="cmp-mainnavbar_nav">
+      <div class="cmp-mainnavbar__logo">
+        <a href="http://localhost:4502/${model.homeLink}.html?query=disabled">
+          <img src="${model.logo}" alt="rightpoint" />
+        </a>
+      </div>
+      <div class="cmp-mainnavbar__navbar" >
+        <!-- data-sly-list.item="${model.category}" -->
+        <div class="cmp-mainnavbar_search">
+          <input type="text" class="cmp-mainnavbar_search_search-box" placeholder="search brand, product">
+          <button class="cmp-mainnavbar_search_search-btn">search</button>
+        </div>
+        <!-- <a href="http://localhost:4502/${item.link}.html?query=disabled" class="cmp-mainnavbar__navbar-link ${item.id}"
+          >${item.text}</a
+        > -->
+        
+      </div>
+    <!-- </div> -->
+
+    <!-- <div class="cmp-mainheader__second"> -->
+    <!-- <div class="cmp-mainnavbar__right">
+      <!-- <a class="cmp-mainheader__second__right__button" href="">Contact</a> -->
+      <div class="cmp-mainnavbar__right-webrtc">
+        <a href="${model.weblink}">
+          <i class="fa-solid fa-globe my-font"></i>
+        </a>
+      </div>
+      <div  class="cmp-mainnavbar__right-myspan1"><span> | </span></div>
+      
+      <div class="cmp-mainnavbar__right-websearch">
+        <a href="${model.search}"
+          ><i class="fa-solid fa-magnifying-glass my-font"> </i>
+        </a>
+      </div>
+      <div  class="cmp-mainnavbar__right-myspan2"><span> | </span></div>
+      <div class="cmp-mainnavbar__right-webmenu">
+        <a href="#"><i class="fa-solid fa-bars my-font"></i></a>
+      </div>
+    </div> -->
+
+
+
+    <!-- </div> -->
+ 
+    
+<!-- </div> -->
+</sly>
+</div>
+<!-- <div class="cmp-mainnavbar_links-container"  data-sly-list.item="${model.category}">
+
+  
+    <a href="http://localhost:4502/${item.link}.html?query=disabled" class="cmp-mainnavbar_link ${item.id}"
+    >${item.text}</a
+  >
+  
+
+</div> -->
+<sly data-sly-call="${templates.placeholder @ isEmpty = model.isEmpty}"></sly>

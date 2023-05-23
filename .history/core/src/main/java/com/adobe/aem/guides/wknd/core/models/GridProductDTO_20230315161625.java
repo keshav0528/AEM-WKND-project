@@ -1,0 +1,34 @@
+package com.adobe.aem.guides.wknd.core.models;
+
+public class GridProductDTO {
+    
+    String id;
+    String text;
+    String title;
+    String image;
+    String subtitle;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String gettitle() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+}

@@ -1,0 +1,265 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+.container {
+  padding: 0;
+}
+.cmp-mainheader {
+  background-color: white;
+  display: flex;
+  position: fixed;
+  // align-items: center;
+  justify-content: space-between;
+  // top: 10px;
+  width: 100%;
+  z-index: 999;
+  border: 1px solid;
+  // height: 75px;
+  // left: 0;
+
+  // &__first {
+  //   display: flex;
+
+  &__logo {
+    background-color: white;
+    // height: 70px;
+    width: 25%;
+    // border: 1px solid;
+
+    img {
+      // height: 40px;
+      // padding: 9px;
+      // margin: auto;
+      // margin-top: 10px;
+      width: 100%;
+      // padding: 9px;
+      // margin: auto;
+      // margin-top: 1px;
+      // width: 200px;
+      // height: 67px;
+      // object-fit: cover;
+      // border: 1px solid;
+    }
+
+    @media only screen and (min-width: 768px) {
+      // height: 70px;
+      width: 20%;
+      margin-left: 20px;
+
+      // img {
+      //   // height: 20px;
+      //   width: 70%;
+      // }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      // height: 70px;
+      width: 15%;
+      margin-left: 50px;
+
+      // img {
+      //   // height: 35px;
+      //   width: 80%;
+      // }
+    }
+
+    @media only screen and (min-width: 1400px) {
+      // height: 70px;
+      width: 10%;
+      margin-left: 70px;
+
+      img {
+        // height: 35px;
+        width: 80%;
+      }
+    }
+  }
+
+  &__navbar {
+    // display: flex;
+    // // border: 1px solid;
+    // align-items: center;
+    // margin-left: 20px;
+
+    // a {
+    //   text-decoration: none;
+    //   padding: 0px 20px;
+    //   color: #a1a1a8;
+    //   border: 1px solid;
+    // }
+
+    display: none;
+
+    @media only screen and (min-width: 768px) {
+      align-items: center;
+      background-color: white;
+      // display: block;
+      display: flex;
+      width: 61%;
+
+      &-link {
+        color: gray;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-decoration: none;
+
+        &:hover {
+          color: red;
+        }
+
+        &.rightnav {
+          display: none;
+
+          @media only screen and (min-width: 992px) {
+            background-color: black;
+            color: white;
+            display: block;
+            font-size: 15px;
+            padding: 10px;
+            margin-left: 18%;
+
+            &:hover {
+              background-color: gray;
+              color: black;
+            }
+          }
+
+          @media only screen and (min-width: 1200px) {
+            margin-left: 40%;
+          }
+
+          @media only screen and (min-width: 1400px) {
+            margin-left: 520px;
+          }
+        }
+      }
+    }
+  }
+  // }
+
+  // &__second {
+  // width: 20%;
+  // display: flex;
+
+  &__right {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    height: 75px;
+    width: 35%;
+
+    // align-items: center;
+    // justify-items: center;
+    // display: flex;
+    // height: 75px;
+    // width: 35%;
+    // padding: 30px;
+    // border: 1px solid;
+
+    // &__button {
+    //   padding: 6px 38px;
+    //   background: #000;
+    //   color: white;
+    //   font-size: 18px;
+    //   text-decoration: none;
+    //   margin-right: 30px;
+    //   // border: 1px solid;
+    // }
+    &-myspan1 {
+      display: none;
+    }
+    &-myspan2 {
+      color: black;
+      font-size: 25px;
+    }
+    // span {
+    //   margin: 0 25px;
+    //   font-size: 30px;
+    //   // border: 1px solid;
+    // }
+
+    // &__icons {
+    //   font-size: 20px;
+    //   // border: 1px solid;
+    // }
+
+    &-webrtc {
+      display: none;
+    }
+
+    &-websearch {
+      margin: auto;
+      text-align: center;
+      width: 50%;
+      // border: 1px solid;
+
+      .my-font {
+        font-size: 20px;
+        justify-content: center;
+        color: black;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    &-webmenu {
+      margin: auto;
+      text-align: center;
+      width: 50%;
+
+      .my-font {
+        font-size: 20px;
+        justify-content: center;
+        color: black;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      width: 24%;
+      margin-right: 2%;
+      &-myspan1 {
+        color: black;
+        display: block;
+        font-size: 25px;
+      }
+      &-webrtc {
+        margin: auto;
+        text-align: center;
+        display: block;
+        width: 31%;
+
+        .my-font {
+          color: black;
+          font-size: 20px;
+          justify-content: center;
+
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.2, 1.2);
+          }
+        }
+      }
+
+      &-websearch {
+        width: 31%;
+      }
+
+      &-webmenu {
+        width: 31%;
+      }
+    }
+  }
+}
+// }
+
+// }
+
+// @media only screen and (min-width:300px) and (max-width:500px) {}
+
+// @media only screen and (min-width:500px) and (max-width:800px) {}
+
+// @media only screen and (min-width:800px) {}

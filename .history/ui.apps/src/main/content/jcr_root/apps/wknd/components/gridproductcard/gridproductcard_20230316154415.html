@@ -1,0 +1,17 @@
+<div
+class="cmp-product-grid-container"
+data-sly-use.templates="/libs/core/wcm/components/commons/v1/templates.html"
+data-sly-use.model="com.adobe.aem.guides.wknd.core.models.GridProductCard" 
+data-cmp-is="product">
+    <div class="cmp-product-grid-item"  data-sly-list.item="${model.product}" >
+     <div class="card">
+    <ul >
+        <li class="cmp-product-grid-item-image ">
+            <img class="cmp-product-grid-item-image-img }" src="${item.image}" alt="" />
+          </li>
+    <li class="cmp-product-grid-item-discount ">${item.discount}</li>
+    <li class="cmp-product-grid-item-price ">${item.text}</li>
+      <li class="cmp-product-grid-item-card-botton ">${item.title}</li>
+</ul>
+</div>
+</div>

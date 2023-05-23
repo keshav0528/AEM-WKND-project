@@ -1,0 +1,21 @@
+.cmp-filter-dropdown{
+    &-sort
+
+    &-img{
+        width: 200px;
+
+    }
+    &-product{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+
+    }
+    &-product-card{
+        margin: 0 10px 0 0;
+    }
+
+}
+.cmp-filter-dropdown-product-filter{
+    
+}

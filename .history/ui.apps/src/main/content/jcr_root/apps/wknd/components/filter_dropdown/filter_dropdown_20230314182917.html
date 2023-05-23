@@ -1,0 +1,108 @@
+
+<div class="cmp-filter-dropdown-product-filter">
+    <h1>Security Products</h1>
+    <div class="sort">
+      <div class="cmp-filter-dropdown-collection-sort">
+        <label>Filter by:</label>
+        <select id="FilterCategory" onchange="getSelectedValueCategory()">
+          <option selected="selected">Category</option>
+          <option value="FOOTWEAR">FOOTWEAR</option>
+          <option value="Apparel">Apparel</option>
+          <option value="Accessories">Accessories</option>
+        </select>
+        <select id="FilterProductType" onchange="getSelectedValueProductType()">
+          <option selected="selected">Product Type</option>
+          <option value="Bag">Bag</option>
+          <option value="Cap">Cap</option>
+          <option value="Sandals">Sandals</option>
+          <option value="SportsShoe">Sports Shoe</option>
+         
+        </select>
+        <select id="FilterPrice" onchange="getSelectedValuePrice()">
+          <option selected="selected">Price</option>
+          <option value="Less Then 1000">Less then 1000</option>
+          <option value="1000-3000">1000-3000</option>
+          <option value="3000-5000">3000-5000</option>
+          <option value="5000-10000">5000-10000</option>
+        </select>
+        <select id="FilterGender" onchange="getSelectedValueGender()">
+          <option selected="selected">Gender</option>
+          <option value="Male">Male</option>
+          <option value="dvr">DVR</option>
+        </select>
+        <select id="list" onchange="getSelectedValue()">
+          <option selected="selected">Size</option>
+          <option value="camera">Camera</option>
+          <option value="dvr">DVR</option>
+        </select>
+        <select id="list" onchange="getSelectedValue()">
+          <option selected="selected">ColorVu</option>
+          <option value="camera">Camera</option>
+          <option value="dvr">DVR</option>
+        </select>
+      </div>
+    </div>
+</div>
+
+<section class="cmp-filter-dropdown-product">
+    <div class="cmp-filter-dropdown-product-card camera">
+        <div class="cmp-filter-dropdown-img"> 
+            <h4 id="item-description">CAMERA</h4>
+            <img src="${properties.image}">
+          </div>
+          <div class="product-info">
+            <h5>Hikvision ColorVu Series</h5>
+            <h6>$99.99</h6>
+          </div>
+    </div>
+    <div class="product-card dvr">
+        <div class="product-image">
+            <h4 id="item-description">DVR</h4>
+            <img src="${properties.image}">
+        </div>
+        <div class="product-info">
+            <h5>Hikvision Value Series</h5>
+            <h6>$99.99</h6>
+        </div>
+      </div>
+      <div class="product-card camera">
+        <div class="product-image">
+          <h4 id="item-description">CAMERA</h4>
+          <img src="${properties.image}">
+        </div>
+        <div class="product-info">
+          <h5>Hikvision ColorVu Series</h5>
+          <h6>$99.99</h6>
+        </div>
+      </div>
+      <div class="product-card camera">
+        <div class="product-image">
+          <h4 id="item-description">CAMERA</h4>
+          <img src="${properties.image}">
+        </div>
+        <div class="product-info">
+          <h5>Hikvision ColorVu Series</h5>
+          <h6>$99.99</h6>
+        </div>
+      </div>
+      <div class="product-card dvr">
+        <div class="product-image">
+            <h4 id="item-description">DVR</h4>
+            <img src="${properties.image}">
+        </div>
+        <div class="product-info">
+            <h5>Hikvision Value Series</h5>
+            <h6>$99.99</h6>
+        </div>
+      </div>
+      <div class="product-card dvr">
+        <div class="product-image">
+            <h4 id="item-description">DVR</h4>
+             <img src="${properties.image}">
+        </div>
+        <div class="product-info">
+            <h5>Hikvision Value Series</h5>
+            <h6>$99.99</h6>
+        </div>
+      </div>
+</section>

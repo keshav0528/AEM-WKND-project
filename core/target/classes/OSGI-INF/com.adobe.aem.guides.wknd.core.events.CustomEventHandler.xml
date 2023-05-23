@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobe.aem.guides.wknd.core.events.CustomEventHandler" immediate="true">
+  <property name="service.description" type="String" value=" This event handler listens the events on page activation"/>
+  <property name="event.topics" type="String" value="org/apache/sling/api/resource/Resource/ADDED"/>
+  <property name="event.filter" type="String" value="(path=/content/wknd/us/en/*)"/>
+  <service>
+    <provide interface="org.osgi.service.event.EventHandler"/>
+  </service>
+  <reference name="jobManager" interface="org.apache.sling.event.jobs.JobManager" field="jobManager"/>
+  <reference name="resolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="resolverFactory"/>
+  <implementation class="com.adobe.aem.guides.wknd.core.events.CustomEventHandler"/>
+</scr:component>

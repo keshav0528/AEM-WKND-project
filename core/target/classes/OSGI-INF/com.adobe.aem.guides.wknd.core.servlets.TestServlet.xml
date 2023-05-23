@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobe.aem.guides.wknd.core.servlets.TestServlet">
+  <property name="sling.servlet.paths" type="String">/bin/trainingproject/testservlet</property>
+  <property name="sling.servlet.resourceTypes" type="String">Sample/components/samplecontainer</property>
+  <property name="sling.servlet.methods" type="String">GET</property>
+  <property name="sling.servlet.extensions" type="String">json</property>
+  <property name="sling.servlet.resourceSuperType" type="String" value="sling/bundle/resource"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <implementation class="com.adobe.aem.guides.wknd.core.servlets.TestServlet"/>
+</scr:component>

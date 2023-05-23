@@ -1,0 +1,49 @@
+
+//== Font
+
+$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size:             16px;
+$font-height:           1.5;
+
+$font-rp-title-weight: 500;
+$font-rp-title-subnav: 400;
+$font-family-rp-subnav: "proxima-nova", sans-serif;
+$font-family-rp-title: "freight-text-pro", serif;
+$font-size-rp: 50px;
+$font-size-rp-xs: 35px;
+
+//== Color
+
+
+// Normal mode
+$color-foreground:      #202020;
+$color-background:      #ECECEC;
+$color-link:            #2020E0;
+$color-rp-yellow: #FFFF00;
+$color-border-bottom: #828282;
+$color-rp-black:        #000000;
+$color-rp-grey:         #707070;
+$color-rp-lightGrey:      #A5A7A9;
+$color-rp-white:        #ffffff;
+$color-rp-cornflower-blue: #88a4ba;
+$color-rp-alizarinCrimson: #f2393c;
+$color-rp-crimson: #DC143C;
+$color-rp-Whitesmoke: #F5F5F5;
+
+$color-rp-hitGrey:      #A5A7A9;
+
+
+$color-rp-lightGrey: #e3e3e3;
+
+
+
+// Dark mode
+$color-foreground-dark: invert($color-foreground);
+$color-background-dark: invert($color-background);
+$color-link-dark:       invert($color-link);
+
+//Breakpoints
+
+$tablet-min-width: 768px;
+$tablet-max-width: 991.5px;
+$mobile-max-width: 767.5px;

@@ -1,0 +1,39 @@
+<div class="cmp-product-grid-container"
+data-sly-use.templates="/libs/core/wcm/components/commons/v1/templates.html"
+data-sly-use.model="com.adobe.aem.guides.wknd.core.models.GridProductCard" 
+data-cmp-is="products">
+
+  <sly data-sly-call="${templates.placeholder @ isEmpty = model.isEmpty}">
+   <div class="cmp-product-grid-item"  data-sly-list.item="${model.Product}" >
+    <div class="card">
+     
+      
+      
+      <ul '${item.id}>
+    
+      <li class="cmp-product-grid-item-image" ${item.id}>
+        <img class="cmp-product-grid-item-image-img" src="${item.image}" alt="" />
+      </li>
+   
+      
+      <li class="cmp-product-grid-item-discount" ${item.id}>${item.subTitle}</li>
+   
+  
+      <li class="cmp-product-grid-item-price" ${item.id}>${item.text}</li>
+      <li class="cmp-product-grid-item-card-botton" ${item.id}>${item.title}</li>
+      <!-- <li class="cmp-occupations">${properties.occupations}</li> -->
+    </ul>
+      
+    </div>
+  </div>
+</sly>
+</div>
+<!-- <sly data-sly-call="${templates.placeholder @ isEmpty = model.isEmpty}"></sly>
+<div class="cmp-mainnavbar_links-container"  data-sly-list.item="${model.category}">
+
+  
+  <a class="cmp-mainnavbar_link ${item.id}"
+  >${item.text}</a
+> -->
+
+

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "javascript": "^1.0.0",
+    "jquery": "^3.6.4",
+    "plyr": "^3.7.8",
+    "scss": "^0.2.4"
+  }
+}

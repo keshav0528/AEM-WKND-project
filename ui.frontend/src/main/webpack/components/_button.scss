@@ -1,0 +1,38 @@
+.cmp-button {}
+.cmp-button__text {}
+.cmp-button__icon {}
+//.cmp-button__icon--myIcon {}
+
+.cmp-button-primary{
+    .cmp-button{
+
+        padding: 15px;
+        border : 2px solid red;
+        background-color: bisque;
+        color: black;
+        text-align: center;
+
+
+    }
+
+}
+.cmp-button-secondary{
+    .cmp-button{
+        padding: 15px;
+        text-align: center;
+        border : 2px solid rgb(19, 19, 114);
+        background-color: rgb(197, 25, 108);
+        color: black;
+    }
+    
+}
+
+.cmp-button-tertiary {
+    .cmp-button{
+        padding: 15px;
+        text-align: center;
+        border : 2px solid rgb(33, 190, 38);
+        background-color: rgb(19, 203, 227);
+        color: black;
+    }
+}

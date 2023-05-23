@@ -1,0 +1,10 @@
+<div
+data-sly-use.model="com.adobe.aem.guides.wknd.core.models.GridProductCard" 
+class="cmp-product-grid-container"
+>
+<div class="cmp-product-grid-item"  data-sly-list.item="${model.products}" >
+    <ul></ul>
+    <li class="cmp-product-grid-item-discount  ${item.id}">${item.subTitle}</li>
+</div>
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.adobe.aem.guides.wknd.core.sample.HttpConfiguration">
+  <OCD id="com.adobe.aem.guides.wknd.core.sample.HttpConfiguration" name="Http Configuration" description="This configuration reads the values to make an HTTP call to a JSON webservice">
+    <AD id="enableConfig" type="Boolean" name="Enable config" description="This property indicates whether the configuration values will taken into account or not"/>
+    <AD id="getProtocol" type="String" name="Protocol" description="Choose Protocol">
+      <Option label="HTTP" value="http"/>
+      <Option label="HTTPS" value="https"/>
+    </AD>
+    <AD id="getServer" type="String" name="Server" description="Enter the server name"/>
+    <AD id="getEndpoint" type="String" name="Endpoint" description="Enter the endpoint"/>
+  </OCD>
+  <Designate pid="com.adobe.aem.guides.wknd.core.sample.HttpServiceImpl">
+    <Object ocdref="com.adobe.aem.guides.wknd.core.sample.HttpConfiguration"/>
+  </Designate>
+</metatype:MetaData>
