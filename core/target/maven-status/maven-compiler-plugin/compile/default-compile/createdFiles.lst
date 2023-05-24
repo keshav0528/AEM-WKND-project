@@ -1,5 +1,6 @@
 com\adobe\aem\guides\wknd\core\services\OSGiFactoryConfig.class
 com\adobe\aem\guides\wknd\core\schedulers\SimpleScheduledTask$Config.class
+com\adobe\aem\guides\wknd\core\servlets\JsonDataDropdownServlet.class
 com\adobe\aem\guides\wknd\core\sample\HttpConfiguration.class
 com\adobe\aem\guides\wknd\core\models\impl\OSGiConfigDemoImpl.class
 com\adobe\aem\guides\wknd\core\models\impl\GridProductCardImpl.class

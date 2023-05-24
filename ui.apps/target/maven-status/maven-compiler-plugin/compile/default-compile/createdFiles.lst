@@ -4,6 +4,7 @@ org\apache\sling\scripting\sightly\apps\wknd\components\countrydropdown\countryd
 org\apache\sling\scripting\sightly\apps\wknd\components\heroanimation\heroanimation__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\text__002d__below__002d__image\text__002d__below__002d__image__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\form_dropdown\form_dropdown__002e__html.class
+org\apache\sling\scripting\sightly\apps\wknd\components\breadcrumbnavbar\breadcrumbnavbar__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\sample_rte\sample_rte__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\slidercontainer\slidercontainer__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\osgiconfigsample\osgiconfigsample__002e__html.class

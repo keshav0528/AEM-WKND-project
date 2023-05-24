@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Static Frontend file</title>
+    <meta name="template" content="page-content" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="/etc.clientlibs/wknd/clientlibs/clientlib-base.css"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.plyr.io/3.3.21/plyr.polyfilled.js"></script>
+    <script
+      type="text/javascript"
+      src="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.css"
+      type="text/css"
+    />
+  <script defer src="clientlib-site/site.js"></script><link href="clientlib-site/site.css" rel="stylesheet"></head>
+  <body class="page basicpage">
+    <!--/* <section class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" tabindex="1" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  tabindex="3"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="4">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" tabindex="2">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section> */-->
+    <!--/* <section class="cmp-video-banner" data-cmp-is="cmp-video-banner">
+    <div class="cmp-video-banner-container">
+      <video controls crossOrigin 
+      id="player"
+      poster="https://source.unsplash.com/random/576x452"
+        class="cmp-video-banner-video">
+        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4"
+          size="576" />
+        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4"
+          size="720" />
+        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4"
+          size="1080" />
+
+
+        <track kind="captions" label="English" srcLang="en"
+          src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default />
+        <track kind="captions" label="Français" srcLang="fr"
+          src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt" />
+
+      </video>
+      <img
+        src="data:image/png;base64,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"
+        class="cmp-video-banner-button-play" alt="img-image" />
+    </div>
+  </section> */-->
+   
+
+
+    <section class="cmp-ebook-modal" data-cmp-is="cmp-ebook-modal">
+    <div class="cmp-ebook-modal__container">
+      <div class="cmp-ebook-modal_content">
+        <h5 class="cmp-ebook-modal_content--pretitle">Perspective</h5>
+        <h2 class="cmp-ebook-modal_content--title">
+          Lorem ipsum dolor ex dicta vero illum? Vero, sapiente assumenda
+          totam.
+        </h2>
+        <div class="cmp-ebook-modal_content--mobileImage">
+          <img src="https://source.unsplash.com/random/576x452" alt="img" />
+        </div>
+        <div class="cmp-ebook-modal_content--desktopImage">
+          <img src="https://source.unsplash.com/random/576x352" alt="img" />
+        </div>
+        <div class="cmp-ebook-modal_content--description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+          accusantium. Sint eum itaque fuga atque commodi? Error, facere eaque
+          sequi dolorem, voluptates unde adipisci modi libero, illum placeat
+          velit fugiat!
+        </div>
+        <a href="https://www.africau.edu/images/default/sample.pdf" class="cmp-ebook-modal_content--button" download
+          aria-label="CLick here to download">Download Ebook</a>
+      </div>
+      <div class="cmp-ebook-modal-bottom">
+        <span class="cmp-ebook-modal-bottom--date">Apr 4 , 2023</span>
+        <div class="cmp-ebook-modal-bottom-media">
+          <div class="cmp-ebook-modal-share">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Cngd4DTndBPQi_-TxtFSSPNLM9_ZPGmMnw&usqp=CAU"
+              alt="share-img" class="cmp-ebook-modal-bottom-media--shareimg" />
+            <div class="cmp-ebook-modal-sharer-content">
+              <button class="button linkedin" data-sharer="linkedin"
+                data-url="https://digital.wipfli.com/perspective/2023/3/carbon-footprint">
+                <i class="fab fa-linkedin"></i><span>Linkedin</span>
+              </button>
+              <button class="button mail" data-sharer="email" data-title="Awesome Url"
+                data-url="https://digital.wipfli.com/perspective/2023/3/carbon-footprint"
+                data-subject="Hey! Check out that URL" data-to="some@email.com">
+                <i class="fas fa-envelope"></i><span>GoogleMail</span>
+              </button>
+              <button class="button facebook" data-sharer="facebook" data-hashtag="hashtag"
+                data-url="https://digital.wipfli.com/perspective/2023/3/carbon-footprint/">
+                <i class="fa-brands fa-facebook-f"></i><span>Facebook</span>
+              </button>
+              <button class="button twitter" data-sharer="twitter" data-title="Checkout Sharer.js!"
+                data-hashtags="awesome, sharer.js"
+                data-url="https://digital.wipfli.com/perspective/2023/3/carbon-footprint">
+                <i class="fab fa-twitter"></i><span>Twitter</span>
+              </button>
+            </div>
+          </div>
+          <img
+            src="data:image/png;base64,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"
+            alt="print-img" class="cmp-ebook-modal-bottom-media--printimg" aria-label="CLick here to print" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  </body>
+</html>
