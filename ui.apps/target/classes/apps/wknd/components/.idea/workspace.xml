@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dfaecd0-95dd-4237-b717-cdf605a16c30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../../../../all/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../../all/src/main/content/META-INF/vault/definition/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../../all/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../../ui.apps.structure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/clientlibs/clientlib-base/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/clientlibs/clientlib-base/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/clientlibs/clientlib-base/css/excel-upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/clientlibs/clientlib-base/gifs/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/clientlibs/clientlib-base/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/clientlibs/clientlib-base/js/excel-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/clientlibs/clientlib-base/js/excel-upload.js.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/components/content/excel-upload/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/config/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../excel-to-json/config/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.config.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-base/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-base/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-base/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-dependencies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-dependencies/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-dependencies/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-grid/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-grid/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-grid/less/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-site/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-site/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-site/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-site/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-site/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clientlibs/clientlib-site/resources/site.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accordion/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accordion/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accordion/_cq_template/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accordion/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breadcrumb/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/button/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carousel/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carousel/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carousel/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catogeryoption/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catogeryoption/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catogeryoption/catogeryoption.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contentfragment/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contentfragment/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contentfragmentlist/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/clientlib-authoring/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/clientlib-authoring/js.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/clientlib-authoring/js.text.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/clientlib-authoring/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/clientlib-authoring/js/js.js.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrydropdown/countrydropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_render/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_render/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_render/demo_render.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embed/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiencefragment/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiencefragment/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter_dropdown/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter_dropdown/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter_dropdown/filter_dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/button/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/container/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/container/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/hidden/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/options/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/text/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_dropdown/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_dropdown/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_dropdown/form_dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languagenavigation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myname/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myname/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myname/myname.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navbar/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navbar/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navbar/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navigation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osgiconfigdemo/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osgiconfigdemo/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osgiconfigdemo/osgiconfigdemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osgiconfigsample/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osgiconfigsample/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osgiconfigsample/osgiconfigsample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/customfooterlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/customheaderlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdfviewer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productcard/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productcard/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productcard/productcard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progressbar/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puma_navbar/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puma_navbar/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puma_navbar/puma_navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remotepage/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remotepagenext/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolverservice/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolverservice/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolverservice/resolverservice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_dropdown/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_dropdown/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_dropdown/sample_dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_rte/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_rte/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_rte/sample_rte.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_sightly_sly/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_sightly_sly/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_sightly_sly/sample_sightly_sly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplecomp/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplecomp/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplecomp/samplecomp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplecompcontainer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplecompcontainer/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplecompcontainer/samplecompcontainer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separator/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-topnav/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-topnav/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-topnav/site-topnav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subheader/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subheader/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subheader/subheader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabs/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabs/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabs/_cq_template/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabs/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teaser/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text-below-image/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text-below-image/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text-below-image/text-below-image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_image_right/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_image_right/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_image_right/text_image_right.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_over_image/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_over_image/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_over_image/text_over_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textvalidation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textvalidation/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textvalidation/clientlib-authoring/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textvalidation/clientlib-authoring/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textvalidation/clientlib-authoring/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textvalidation/clientlib-authoring/js/js.js.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textvalidation/textvalidation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/title/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xfpage/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xfpage/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xfpage/customfooterlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xfpage/customheaderlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../i18n/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../i18n/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../i18n/fr.json.dir/.content.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../.." />
+  </component>
+  <component name="ProjectId" id="2PrlwNos4awXPUmcSpZbL2Ssaya" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dfaecd0-95dd-4237-b717-cdf605a16c30" name="Changes" comment="" />
+      <created>1684223319597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684223319597</updated>
+    </task>
+    <servers />
+  </component>
+</project>

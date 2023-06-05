@@ -1,0 +1,85 @@
+<div class="cmp-filter-dropdown-product-filter">
+  <h1>FILTER PRODUCT</h1>
+  <div >
+    <div class="cmp-filter-dropdown-collection-sort">
+      <label>Filter by:</label>
+      <div class="columns medium-4">
+        <select id="FilterCategory" onchange="getSelectedValueCategory()">
+          <option selected="selected">Category</option>
+          <option value="FOOTWEAR">FOOTWEAR</option>
+          <option value="Apparel">Apparel</option>
+          <option value="Accessories">Accessories</option>
+        </select>
+        <select id="FilterProductType" onchange="getSelectedValueProductType()">
+          <option selected="selected">Product Type</option>
+          <option value="Bag">Bag</option>
+          <option value="Cap">Cap</option>
+          <option value="Sandals">Sandals</option>
+          <option value="SportsShoe">Sports Shoe</option>
+        </select>
+        <select id="FilterPrice" onchange="getSelectedValuePrice()">
+          <option selected="selected">Price</option>
+          <option value="Less Then 1000">Less then 1000</option>
+          <option value="1000-3000">1000-3000</option>
+          <option value="3000-5000">3000-5000</option>
+          <option value="5000-10000">5000-10000</option>
+        </select>
+        <select id="FilterGender" onchange="getSelectedValueGender()">
+          <option selected="selected">Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <select id="FilterSize" onchange="getSelectedValueSize()">
+          <option selected="selected">Size</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <select id="FilterColor" onchange="getSelectedValueColor()">
+          <option selected="selected">Color</option>
+          <option value="Red">Red</option>
+          <option value="Green">Green</option>
+          <option value="Black">Black</option>
+
+          <option value="Blue">Blue</option>
+          <option value="Grey">Grey</option>
+          
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+
+    class="cmp-product-grid-container"
+    data-sly-use.model="com.adobe.aem.guides.wknd.core.models.GridProductCard"
+    data-sly-list.item="${model.product}"
+    data-type="${item.category}"
+    data-type="${item.producttype}"
+    data-type="${item.gender}"
+    data-type="${item.size}"
+    data-type="${item.color}"
+  >
+    <div class="cmp-product-grid-item ${item.id} ${item.category} ${item.color} ${item.size} ${item.producttype} ${item.gender}">
+      <div class="card">
+        <div class="cmp-product-grid-item-image">
+          <img
+            class="cmp-product-grid-item-image-img ${item.id}"
+            src="${item.image}"
+            alt=""
+          />
+        </div>
+        <div class="cmp-product-grid-item-discount ${item.id}">
+          ${item.title}
+        </div>
+
+        <div class="cmp-product-grid-item-price ${item.id}">${item.price}</div>
+        <div class="cmp-product-grid-item-card-botton ${item.id}">
+          ${item.button}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

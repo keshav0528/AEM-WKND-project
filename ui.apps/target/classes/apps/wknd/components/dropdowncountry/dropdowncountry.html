@@ -1,0 +1,15 @@
+
+
+
+
+<label>Please select a City:</label>
+<input list="city-details" id="city-choice" name="city-choice" />
+<div data-sly-use.cmap="com.adobe.aem.guides.wknd.core.servlets.DropDown">
+<datalist id="city-details">
+<sly data-sly-list="${cmap.citymap}">
+    <option value="${cmap.citymap[item]}">
+</sly>    
+</datalist>
+
+</div>
+
