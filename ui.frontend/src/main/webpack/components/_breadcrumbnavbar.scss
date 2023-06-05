@@ -19,6 +19,7 @@
     font-weight: 400;
     padding: 50px 0;
   }
+}
 
   .breadcrumb {
     margin-left: 50px;
@@ -30,6 +31,7 @@
       padding: 50px/10;
       background-color: #59a386;
       border-radius:(50px);
+      display: flex;
       position: relative;
       margin-left: -50px;
       transition:(all 0.2s);
@@ -53,6 +55,7 @@
 
         .icon {
           display: inline-block;
+          opacity: 1;
         }
 
         .text {
@@ -65,6 +68,10 @@
           .text {
             display: inline-block;
             opacity: 1;
+          }
+          .icon{
+                display: none;
+                opacity: 0;
           }
         }
       }
@@ -85,4 +92,3 @@
       }
     }
   }
-}

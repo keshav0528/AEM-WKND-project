@@ -11,50 +11,48 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                   <image1
+                    <image1
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
                         fieldLabel="image1"
                         name="./image1"/>
-                 <headline
+                    <headline
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="headline"
                         name="./headline"/>
-                 <headline2
+                    <headline2
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="headline2"
                         name="./headline2"/>
-
-                 <headline3
+                    <headline3
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="headline3"
                         name="./headline3"/>
-                 <headline4
+                    <headline4
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="headline4"
                         name="./headline4"/>
-                   <image2
+                    <image2
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
                         fieldLabel="image2"
-                        name="./image2"/>           
+                        name="./image2"/>
                     <image3
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
                         fieldLabel="image3"
                         name="./image3"/>
-                   <image4
+                    <image4
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
                         fieldLabel="image4"
-                        name="./image4"/>         
+                        name="./image4"/>
                 </items>
             </column>
-          
         </items>
     </content>
 </jcr:root>

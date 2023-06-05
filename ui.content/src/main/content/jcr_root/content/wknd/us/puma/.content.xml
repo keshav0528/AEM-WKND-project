@@ -30,8 +30,9 @@
         </root>
     </jcr:content>
     <home/>
+    <test/>
+    <test-puma/>
+    <kids/>
     <mens/>
     <womens/>
-    <kids/>
-    <test/>
 </jcr:root>

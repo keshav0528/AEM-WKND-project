@@ -16,7 +16,7 @@
 
             "name": "Debug (Attach)",
 
-            "projectName": "wknd.core",
+            "projectName": "aem-guides-wknd.core",
 
             "request": "attach",
 

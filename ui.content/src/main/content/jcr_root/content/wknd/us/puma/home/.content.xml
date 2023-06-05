@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-04-06T16:20:47.242+05:30"
+        cq:lastModified="{Date}2023-05-25T19:06:46.079+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -24,27 +24,48 @@
                     sling:resourceType="wknd/components/container"
                     layout="responsiveGrid">
                     <navbar
-                        jcr:lastModified="{Date}2023-03-23T16:16:08.106+05:30"
+                        jcr:lastModified="{Date}2023-05-23T16:42:06.150+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/navbar"
                         homeLink="/content/wknd/us/puma/home"
-                        logo="/content/dam/wknd/puma/Shoe Sneaker-1.jpg">
+                        logo="/content/dam/puma/Shoe Sneaker-1.jpg">
                         <category jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/us/puma/womens"
+                                link="/content/wknd/us/puma/home/womens"
                                 text="Womens"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/us/puma/mens"
+                                link="/content/wknd/us/puma/home/mens"
                                 text="Mens"/>
                             <item2
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/us/puma/kids"
+                                link="/content/wknd/us/puma/home/kids"
                                 text="Kids"/>
                         </category>
                     </navbar>
+                    <breadcrumbnavbar_cop
+                        jcr:lastModified="{Date}2023-05-25T19:06:46.076+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/breadcrumbnavbar"
+                        homeLink="/content/wknd/us/puma/home">
+                        <category jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/puma/home/womens"
+                                text="Womens"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/puma/home/mens"
+                                text="Mens"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/puma/home/kids"
+                                text="Kids"/>
+                        </category>
+                    </breadcrumbnavbar_cop>
                     <banneranimation_copy
                         jcr:lastModified="{Date}2023-04-06T16:20:47.239+05:30"
                         jcr:lastModifiedBy="admin"
@@ -53,14 +74,14 @@
                         textIsRich="true"
                         title="&lt;h1>&lt;i>&lt;u>PUMA RUNNING&amp;nbsp; SHOES&lt;/u>&lt;/i>&lt;/h1>&#xd;&#xa;"/>
                     <productcard
-                        jcr:lastModified="{Date}2023-03-23T18:13:37.161+05:30"
+                        jcr:lastModified="{Date}2023-05-23T16:43:32.092+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/productcard"
-                        image="/content/dam/wknd/puma/Shoe Sneaker-puma-3.webp"
-                        image2="/content/dam/wknd/puma/Shoe Sneaker-puma-1.jpg"
-                        image3="/content/dam/wknd/puma/Shoe Sneaker-2.jpg"
-                        image4="/content/dam/wknd/puma/Shoe Sneaker-puma-1.jpg"
+                        image="/content/dam/puma/Shoe Sneaker-puma-1.jpg"
+                        image2="/content/dam/puma/Shoe Sneaker-puma-3.webp"
+                        image3="/content/dam/puma/Shoe Sneaker-4.jpg"
+                        image4="/content/dam/puma/Shoe Sneaker-2.jpg"
                         subtitle="Trinity Men's Sneakers"
                         subtitle2="Agile Trip Women's Sneakers"
                         subtitle3="Supertec Zero Men's Sneakers"
@@ -73,15 +94,28 @@
                         title2="ADD TO CARD"
                         title3="ADD TO CARD"
                         title4="ADD TO CARD"/>
+                    <slidercontainer_copy
+                        jcr:lastModified="{Date}2023-05-23T16:50:47.348+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/slidercontainer"
+                        headline="Live Life "
+                        headline2="Running "
+                        headline3="Feel the Speed"
+                        headline4="Love the SPORTS "
+                        image1="/content/dam/puma/Shoe Sneaker-puma-4.webp"
+                        image2="/content/dam/puma/Shoe Sneaker-5.jfif"
+                        image3="/content/dam/puma/Shoe Sneaker-1.jpg"
+                        image4="/content/dam/puma/Shoe Sneaker-puma-3.webp"/>
                     <productcard_copy
-                        jcr:lastModified="{Date}2023-03-23T18:13:37.161+05:30"
+                        jcr:lastModified="{Date}2023-05-23T16:43:32.092+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/productcard"
-                        image="/content/dam/wknd/puma/Shoe Sneaker-puma-3.webp"
-                        image2="/content/dam/wknd/puma/Shoe Sneaker-puma-1.jpg"
-                        image3="/content/dam/wknd/puma/Shoe Sneaker-2.jpg"
-                        image4="/content/dam/wknd/puma/Shoe Sneaker-puma-1.jpg"
+                        image="/content/dam/puma/Shoe Sneaker-puma-1.jpg"
+                        image2="/content/dam/puma/Shoe Sneaker-puma-3.webp"
+                        image3="/content/dam/puma/Shoe Sneaker-4.jpg"
+                        image4="/content/dam/puma/Shoe Sneaker-2.jpg"
                         subtitle="Trinity Men's Sneakers"
                         subtitle2="Agile Trip Women's Sneakers"
                         subtitle3="Supertec Zero Men's Sneakers"
@@ -94,15 +128,15 @@
                         title2="ADD TO CARD"
                         title3="ADD TO CARD"
                         title4="ADD TO CARD"/>
-                    <productcard_copy_2087913442
-                        jcr:lastModified="{Date}2023-03-23T18:13:37.161+05:30"
+                    <productcard_copy_107054431
+                        jcr:lastModified="{Date}2023-05-23T16:43:32.092+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/productcard"
-                        image="/content/dam/wknd/puma/Shoe Sneaker-puma-3.webp"
-                        image2="/content/dam/wknd/puma/Shoe Sneaker-puma-1.jpg"
-                        image3="/content/dam/wknd/puma/Shoe Sneaker-2.jpg"
-                        image4="/content/dam/wknd/puma/Shoe Sneaker-puma-1.jpg"
+                        image="/content/dam/puma/Shoe Sneaker-puma-1.jpg"
+                        image2="/content/dam/puma/Shoe Sneaker-puma-3.webp"
+                        image3="/content/dam/puma/Shoe Sneaker-4.jpg"
+                        image4="/content/dam/puma/Shoe Sneaker-2.jpg"
                         subtitle="Trinity Men's Sneakers"
                         subtitle2="Agile Trip Women's Sneakers"
                         subtitle3="Supertec Zero Men's Sneakers"
@@ -115,8 +149,16 @@
                         title2="ADD TO CARD"
                         title3="ADD TO CARD"
                         title4="ADD TO CARD"/>
+                    <breadcrumbnavbar
+                        jcr:lastModified="{Date}2023-05-23T17:49:53.948+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/breadcrumbnavbar"/>
                 </container>
             </container>
         </root>
     </jcr:content>
+    <mens/>
+    <womens/>
+    <kids/>
 </jcr:root>

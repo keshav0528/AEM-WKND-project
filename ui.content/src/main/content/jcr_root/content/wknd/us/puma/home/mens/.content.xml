@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-05-24T17:24:13.967+05:30"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:template="/conf/wknd/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mens"
+        jcr:uuid="c16c9bac-c291-4df1-bb01-ac7a374502a3"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
+                    <navbar_copy
+                        jcr:lastModified="{Date}2023-05-23T16:45:28.186+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/navbar"
+                        homeLink="/content/wknd/us/puma/home"
+                        logo="/content/dam/puma/Shoe Sneaker-1.jpg">
+                        <category jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/puma/home/womens"
+                                text="Womens"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/puma/home/mens"
+                                text="Mens"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/puma/home/kids"
+                                text="Kids"/>
+                        </category>
+                    </navbar_copy>
+                    <grid_product_copy
+                        jcr:lastModified="{Date}2023-05-23T16:46:29.927+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/grid_product"
+                        textIsRich="[true,true,true,true,true,true,true]">
+                        <product jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                button="ADD TO CARD"
+                                category="FOOTWEAR"
+                                color="Red"
+                                gender="Male"
+                                image="/content/dam/puma/Shoe Sneaker-puma-1.jpg"
+                                price="$4999"
+                                producttype="SportsShoe"
+                                size="5"
+                                title="RBD Game Low Unisex Sneakers"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                button="ADD TO CARD"
+                                category="FOOTWEAR"
+                                color="Black"
+                                gender="Male"
+                                image="/content/dam/puma/Shoe Sneaker-puma-1.jpg"
+                                price="₹7999"
+                                producttype="Sandals"
+                                size="6"
+                                title="Anzarun Lite Slipon Unisex Sneakers"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                button="ADD TO CARD"
+                                category="Apparel"
+                                color="Blue"
+                                gender="Female"
+                                image="/content/dam/puma/Shoe Sneaker-4.jpg"
+                                price="₹15999"
+                                producttype="Sandals"
+                                size="8"
+                                title="R22 Men's Sneakers"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                button="ADD TO CARD"
+                                category="Apparel"
+                                color="Red"
+                                gender="Male"
+                                image="/content/dam/puma/Shoe Sneaker-2.jpg"
+                                price="₹9999"
+                                producttype="SportsShoe"
+                                size="8"
+                                title="BMW M Motorsport Electron E Pro "/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                button="ADD TO CARD"
+                                category="Apparel"
+                                color="Black"
+                                gender="Female"
+                                image="/content/dam/puma/Shoe Sneaker-puma-4.webp"
+                                price="₹8999"
+                                producttype="SportsShoe"
+                                size="8"
+                                title="BMW M Motorsport Electron E Pro "/>
+                            <item5
+                                jcr:primaryType="nt:unstructured"
+                                button="ADD TO CARD"
+                                category="Apparel"
+                                color="Black"
+                                gender="Male"
+                                image="/content/dam/puma/Shoe Sneaker-2.webp"
+                                price="₹5999"
+                                producttype="SportsShoe"
+                                size="10"
+                                title="Trinity Men's Sneakers"/>
+                            <item6
+                                jcr:primaryType="nt:unstructured"
+                                button="ADD TO CARD"
+                                category="FOOTWEAR"
+                                color="Grey"
+                                gender="Male"
+                                image="/content/dam/puma/Shoe Sneaker-3.jpg"
+                                price="$16999"
+                                producttype="Cap"
+                                size="10"
+                                title="Anzarun Lite Slipon Unisex Sneakers"/>
+                        </product>
+                    </grid_product_copy>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

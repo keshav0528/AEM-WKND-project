@@ -3,17 +3,21 @@
   rel="stylesheet"
 />
 
-<div class="cmp-breadcrumnavabr-container">
-  <h1>made by keshav</h1>
-
-  <ul class="breadcrumb">
-    <li>
-      <a href="#">
-        <span class="icon icon-file"></span>
-        <span class="text">file</span>
-      </a>
-    </li>
-    <li>
+<div
+  data-sly-use.model="com.adobe.aem.guides.wknd.core.models.BreadcrumbNavbar"
+  data-sly-use.templates="/libs/core/wcm/components/commons/v1/templates.html"
+  data-cmp-is="BreadcrumbNavbar"
+  class="cmp-breadcrumnavabr-container"
+>
+  <sly data-sly-test="${!model.isEmpty}">
+    <ul class="breadcrumb">
+      <li data-sly-list.item="${model.category}">
+        <a href="${item.link}">
+          <span class="icon icon-user ${item.id}"> </span>
+          <span class="text">${item.text}</span>
+        </a>
+      </li>
+      <!--/* <li>
       <a href="#">
         <span class="icon icon-folder-open"></span>
         <span class="text">folder</span>
@@ -30,11 +34,13 @@
         <span class="icon icon-beaker"></span>
         <span class="text">Lab</span>
       </a>
-    </li>
-    <li>
-      <a href="#">
-        <span class="icon icon-home"></span>
-      </a>
-    </li>
-  </ul>
+    </li> */-->
+      <!--/* <li>
+        <a href="http://localhost:4502/${model.homeLink}.html?query=disabled">
+          <span class="icon icon-home">${model.home}</span>
+        </a>
+      </li> */-->
+    </ul>
+  </sly>
 </div>
+

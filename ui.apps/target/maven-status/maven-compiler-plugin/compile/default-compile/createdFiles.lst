@@ -10,7 +10,7 @@ org\apache\sling\scripting\sightly\apps\wknd\components\slidercontainer\sliderco
 org\apache\sling\scripting\sightly\apps\wknd\components\osgiconfigsample\osgiconfigsample__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\text_over_image\text_over_image__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\puma_videobanner\puma_videobanner__002e__html.class
-org\apache\sling\scripting\sightly\apps\wknd\components\puma_carousel\puma_carousel__002e__html.class
+org\apache\sling\scripting\sightly\apps\wknd\components\carouseltask\carouseltask__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\samplecompcontainer\samplecompcontainer__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\site__002d__topnav\site__002d__topnav__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\xfpage\customfooterlibs__002e__html.class
@@ -31,11 +31,11 @@ org\apache\sling\scripting\sightly\apps\wknd\components\samplecomp\samplecomp__0
 org\apache\sling\scripting\sightly\apps\wknd\components\xfpage\customheaderlibs__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\banneranimation\banneranimation__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\resolverservice\resolverservice__002e__html.class
+org\apache\sling\scripting\sightly\apps\wknd\components\filter_dropdown_java\filter_dropdown_java__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\createpageservlet\createpageservlet__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\sample_sightly_sly\sample_sightly_sly__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\helloworld\helloworld__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\sample_dropdown\sample_dropdown__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\puma_navbar\puma_navbar__002e__html.class
-org\apache\sling\scripting\sightly\apps\wknd\components\puma_slideshow\puma_slideshow__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\dropdowncountry\dropdowncountry__002e__html.class
 org\apache\sling\scripting\sightly\apps\wknd\components\gradientcard\gradientcard__002e__html.class

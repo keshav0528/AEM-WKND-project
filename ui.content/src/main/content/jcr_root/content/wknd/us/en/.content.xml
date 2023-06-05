@@ -79,4 +79,6 @@
             </container>
         </root>
     </jcr:content>
+    <samplePage/>
+    <samplePage0/>
 </jcr:root>
