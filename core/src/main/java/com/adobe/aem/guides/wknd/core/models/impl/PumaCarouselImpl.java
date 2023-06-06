@@ -25,7 +25,7 @@ import org.apache.sling.models.annotations.injectorspecific.SlingObject;
 
 @Model(adaptables = { SlingHttpServletRequest.class }, adapters = { PumaCarousel.class }, resourceType = {
                 PumaCarouselImpl.RESOURCE_TYPE }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class PumaCarouselImpl extends WCMUsePojo implements PumaCarousel {
+public class PumaCarouselImpl extends     WCMUsePojo implements PumaCarousel {
 
         protected static final String RESOURCE_TYPE = "wknd/components/carouseltask";
 
@@ -57,9 +57,11 @@ public class PumaCarouselImpl extends WCMUsePojo implements PumaCarousel {
                 throw new UnsupportedOperationException("Unimplemented method 'isEmpty'");
         }
 
+
+
         @Override
         public List<PumaCarouselCtaLinks> getCtaLinks() {
-
+                // TODO Auto-generated method stub
                 return ctalinks;
         }
 
@@ -75,7 +77,7 @@ public class PumaCarouselImpl extends WCMUsePojo implements PumaCarousel {
                 ctalinks = new ArrayList<>();
                 statistics = new ArrayList<>();
                 Resource res = resource.getChild("slider");
-                Resource res1 = resource.getChild("ctalinks");
+                Resource res1 = resource.getChild("ctaalinks");
                 Resource res2 = resource.getChild("statistics");
                 if (null != res2 && res2.hasChildren()) {
                         Iterator<Resource> cards = res2.listChildren();
@@ -98,7 +100,7 @@ public class PumaCarouselImpl extends WCMUsePojo implements PumaCarousel {
                                 PumaCarouselCtaLinks details = new PumaCarouselCtaLinks();
 
                                 details.setTitlecta(card.getValueMap().get("titlecta", String.class));
-                                details.setLinkcta(card.getValueMap().get("linkscta", String.class));
+                                details.setLinkcta(card.getValueMap().get("linkcta", String.class));
                                 details.setTargetcta(card.getValueMap().get("targetcta", String.class));
 
                                 ctalinks.add(details);

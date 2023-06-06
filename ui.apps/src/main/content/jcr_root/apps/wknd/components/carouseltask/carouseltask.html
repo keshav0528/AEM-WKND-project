@@ -12,19 +12,23 @@
     <img src="${item.image}" style="width: 100%" />
     <div class="cmp-slideshow-container-title">${item.title}</div>
     <div class="cmp-slideshow-container-description">${item.description}</div>
+  
     <div
       class="cmp-slideshow-container-buttoncta"
-      data-sly-list.item="${model.ctalinks}"
-      data-type="${item.titlecta}"
-      data-type="${item.linkcta}"
-      data-type="${item.targetcta}"
+   
     >
-    ${item.titlecta}
-      <!--/* <button class="cmp-slideshow-container-buttoncta-item">
+    <div  
+ 
+    data-sly-list.item="${model.ctalinks}"
+    data-type="${item.titlecta}"
+    data-type="${item.linkcta}"
+    data-type="${item.targetcta}">
+      <button class="cmp-slideshow-container-buttoncta-item ${item.linkcta}">
         <a href="http://localhost:4502/${item.targetcta}.html?query=disabled">
           ${item.titlecta}</a
         >
-      </button> */-->
+      </button>
+      </div>
     </div>
   </div>
 
@@ -54,27 +58,4 @@
   </div>
 
 </div>
-<!--/* <h3>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras
-  in mi at felis aliquet congue. Ut a est eget ligula molestie gravida.
-  Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est
-  malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare
-  est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna.
-  Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida.
-  Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est
-  malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare
-  est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna.
-  Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida.
-  Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est
-  malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare
-  est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna.
-  Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida.
-  Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est
-  malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare
-  est.
-</h3> */-->
-<!--/* <div style="text-align: center">
-  <span class="cmp-slideshow-container-dot" onclick="currentSlide(1)"></span>
-  <span class="cmp-slideshow-container-dot" onclick="currentSlide(2)"></span>
-  <span class="cmp-slideshow-container-dot" onclick="currentSlide(3)"></span>
-</div> */-->
+
