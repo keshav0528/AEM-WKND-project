@@ -1,0 +1,147 @@
+.cmp-samplecorecarousel {
+  
+
+
+display: block;
+
+
+
+
+  &__container {
+   
+  
+    .swiper-button-prev {
+     
+      left: 35%;
+      top: 90%;
+      right: auto;
+      &::after{
+        font-size: 13px;
+      }
+    }
+
+    &--button-prev {
+      border: 2px solid;
+
+      color: $color-rp-black;
+
+      padding: 15px;
+
+      border-radius: 50px;
+
+      height: 4px;
+
+      width: 4px;
+    }
+
+    .swiper-button-next{
+   
+      left: auto;
+      top: 90%;
+      right: 41%;
+      &::after{
+        font-size: 10px;
+      }
+    }
+
+    &--button-next {
+      border: 2px solid;
+
+   color: $color-rp-black;
+
+      padding: 15px;
+
+      border-radius: 50px;
+
+      height: 4px;
+
+      width: 4px;
+    }
+
+    &--pagination {
+   color: $color-rp-black;
+
+      width: 51px;
+
+      height: 23px;
+
+      font-size: 10px;
+      text-align: center;
+      left: 40%;
+      top: 87%;
+    }
+
+    &--sliderdata {
+    }
+  }
+  @media only screen and (min-width: $tablet-min-width) {
+
+    &__container {
+   
+    
+      .swiper-button-prev {
+       
+        left: 53%;
+        top: 80%;
+        right: auto;
+        &::after{
+          font-size: 10px;
+        }
+      }
+  
+      &--button-prev {
+        border: 2px solid;
+  
+      color: $color-rp-black;
+  
+        padding: 16px;
+  
+        border-radius: 50%;
+  
+        height: 4px;
+  
+        width: 4px;
+      }
+  
+      .swiper-button-next{
+       
+        left: auto;
+        top: 80%;
+        right: 40%;
+        &::after{
+          font-size: 10px;
+        }
+      }
+  
+      &--button-next {
+        border: 2px solid;
+  
+      color: $color-rp-black;
+  
+        padding: 16px;
+  
+        border-radius: 50%;
+  
+        height: 4px;
+  
+        width: 4px;
+      }
+  
+      &--pagination {
+      color: $color-rp-black;
+  
+        width: 51px;
+  
+        height: 20px;
+  
+        font-size: 13px;
+        text-align: center;
+        left: 55%;
+        top: 77%;
+      }
+  
+      &--sliderdata {
+      }
+    }
+  }
+}
