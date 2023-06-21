@@ -1,0 +1,24 @@
+<div 
+data-sly-use.model="com.adobe.aem.guides.wknd.core.models.Profiletask"
+data-sly-list.item="${model.profiledetails}"
+data-type="${item.profileimage}"
+data-type="${item.name}"
+data-type="${item.subtitle}"
+data-cmp-is="profiletask"
+class="cmp-profiletask">
+
+  
+    <div class="cmp-profiletask-card-profile-img">
+    
+      <img class="cmp-profiletask-card-profile-img-image" src="${item.profileimage}" />
+      </div>
+
+      <div class="cmp-profiletask-card-profile-detail">
+
+      <h1 class="cmp-profiletask-card-profile-detail-name">${item.name}</h1>
+      <h3 class="cmp-profiletask-card-profile-detail-title">${item.subtitle}</h3>
+      <p class="cmp-profiletask-card-profile-detail-about">${item.about}</p>
+      
+    </div>
+
+</div>

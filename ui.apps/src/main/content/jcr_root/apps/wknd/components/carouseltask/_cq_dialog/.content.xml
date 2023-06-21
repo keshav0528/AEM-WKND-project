@@ -48,7 +48,7 @@
                                       fieldLabel="ctalinks">
                                 <field jcr:primaryType="nt:unstructured"
                                        sling:resourceType="granite/ui/components/coral/foundation/container"
-                                       name="./ctalinks">
+                                       name="./ctaalinks">
                                     <items jcr:primaryType="nt:unstructured">
                                         <titlecta jcr:primaryType="nt:unstructured"
                                                   sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
